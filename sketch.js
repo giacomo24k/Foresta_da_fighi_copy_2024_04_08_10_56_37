@@ -8,10 +8,7 @@
 **/
 
 function setup() {
-  createCanvas3D(600, 400);
-  hideGrid();
-  //Change background color of the scene
-
+  createCanvas3D (windowWidth, windowHeight);
   environment(FOREST);
   background3D("white"); 
 
@@ -43,4 +40,8 @@ function setup() {
 function draw() {
   // 🔍 Never create objects here, but don't forget to have it in your code:
   // leave empty for the moment
+}
+
+function windowResized() {
+
 }
