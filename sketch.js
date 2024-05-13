@@ -10,6 +10,7 @@
 function setup() {
   createCanvas3D (windowWidth, windowHeight);
   getOrbit().autoRotate = true;
+  hideGrid()
   environment(FOREST);
   background3D("white"); 
 
